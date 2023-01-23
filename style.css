@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    overflow: auto;
+    white-space: nowrap
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px ;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 2opx;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Tentang{
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+.Tentang img{
+    height: auto;
+    width: 430px;
+}
+.Tentang-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Tentang-text h2{
+   color: white;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+.Tentang-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+ }
+ .Tentang-text p{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+ }
+
+ .Pengalaman{
+    width: 100%;
+    padding: 100px 0px;
+ }
+ .title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+ }
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+ }
+ .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #372fab;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow-y: scroll;
+    text-align: center;
+ }
+ .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: aliceblue;
+ }
+ h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+ }
+ .pra p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 25px;
+ }
+
+ .Pendidikan{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .didik h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+ }
+ .jenjang p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+ }
+
+ body {
+    background: url("../HTML/cyber.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-left{
+    flex-basis: 35%;
+    color: white;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: whitesmoke;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color: #f9004d;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #f9004d;
+}
